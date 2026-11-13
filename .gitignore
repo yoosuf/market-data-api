@@ -1,0 +1,17 @@
+# SQLite database and its WAL sidecars — never commit cached market data
+*.db
+*.db-wal
+*.db-shm
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+/bin/
+/api
+/refresh
+
+# macOS
+.DS_Store
